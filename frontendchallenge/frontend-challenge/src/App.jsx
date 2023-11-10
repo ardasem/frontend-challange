@@ -1,13 +1,22 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import './App.css'
-import Hero from './components/Hero'
+import Hero from './components/Hero/Hero'
+import TechStack from './components/TechStack/TechStack'
+import Profile from './components/Profile/Profile'
+import Footer from './components/Footer/Footer'
+import axios from 'axios'
+import ProjectsContainer from './components/ProjectsContainer/ProjectsContainer'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
     <Hero />
+    <TechStack />
+    <Profile/>
+    <ProjectsContainer/>
+    <Footer />
     </>
   )
 }

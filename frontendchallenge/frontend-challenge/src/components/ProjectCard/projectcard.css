@@ -1,0 +1,75 @@
+.project--card--container{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;    
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+
+
+.project--info--container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    flex: 60%;
+}
+
+.project--name{
+    color: var(--default-indigo-700, #4338CA);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 32px */
+    
+}
+
+.project--img--container{
+    max-width: 100%;
+}
+
+.project--img--container img{
+   max-width: 100%;
+}
+
+.project--info{
+    color: #383838;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 20px */
+   
+}
+
+.project--tags{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.project--links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+    .project--card--container{
+        
+        flex-direction: column;
+        
+    }
+    
+    
+}
+
+
