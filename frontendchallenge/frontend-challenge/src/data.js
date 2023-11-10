@@ -1,4 +1,4 @@
-export const data = {
+const data = {
  en: {
     skills: ["react", "js", "redux", "node", "vscode", "figma"],
     linkedinUrl: "",
@@ -87,3 +87,5 @@ export const data = {
 }
  
 ;
+
+export default data;

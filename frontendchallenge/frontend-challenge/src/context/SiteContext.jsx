@@ -1,5 +1,5 @@
 import { createContext,useState } from "react";
-import data from './data.js' 
+import data from '../data.js' 
 
 export const SiteContext = createContext();
 
