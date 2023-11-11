@@ -58,8 +58,34 @@
         line-height: 150%; /* 36px */
         text-transform: uppercase;
       }
-
-      
-
-
 }
+
+@media screen and (max-width: 1260px) {
+    .stackcard--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10%;
+        padding: 50px 10% 50px 10%;
+      }
+      .tech--heading {
+        color: #777;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 36px */
+        text-transform: uppercase;
+      }
+}
+
+@media screen and (max-width: 660px) {
+    .techstack--container {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+      }
+}
+

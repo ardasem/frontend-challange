@@ -60,10 +60,22 @@
     gap: 20px;
 }
 .hero--button {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
   border-radius: 6px;
   border: 1px solid var(--default-indigo-800, #3730a3);
   background: var(--default-white, #fff);
   padding: 10px;
+  color: var(--default-indigo-800, #3730A3);
+/* text-lg/leading-7/font-medium */
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
 }
 
 @media screen and (max-width: 768px) {
@@ -85,4 +97,25 @@
         gap: 20px;
     }
 }
+
+@media screen and (max-width: 1260px) {
+    .hero--container {
+        width: 100%;
+        padding: 10px 10% 10px 10%;
+        background: linear-gradient(
+          to bottom,
+          #3730a3 0%,
+          #3730a3 70%,
+          #cbf281 70%,
+          #cbf281 100%
+        );
+      }
+
+      .hero--info--container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
 

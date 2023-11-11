@@ -30,8 +30,13 @@ function Hero() {
             {texts.basicInfo.heroTextSmall}
           </p>
           <span className="hero--buttons">
-            <button className="hero--button">LinkedIn</button>
-            <button className="hero--button">Github</button>
+            <button className="hero--button">
+              <img src="src\assets\LinkedIn.png" alt="" />
+              LinkedIn
+              </button>
+            <button className="hero--button">
+              <img src="src\assets\github.png" alt="" />
+              Github</button>
           </span>
         </div>
 
