@@ -2,8 +2,11 @@
 .profile--container {
   display: flex;
   flex-direction: column;
-  padding: 50px 14% 50px 14%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 auto;
   background-color: #3730a3;
+  
 }
 
 .profile--heading {
@@ -20,11 +23,15 @@
 .profile--info--container {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  gap: 150px;
+  margin: 50px 150px;
+ 
 
 }
 
-
+.profile--img--container{
+min-width: 320px;
+}
 
 .basic--information{
     display: flex;
@@ -57,7 +64,7 @@
   font-weight: 600;
   line-height: 150%; /* 24px */
   letter-spacing: 0.16px;
-  width: 150px;
+  min-width: 150px;
 }
 
 .info--text {
@@ -67,7 +74,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 27px */
-  width: 150px;
+  min-width: 150px;
 }
 
 .about--me p{
@@ -80,6 +87,9 @@
     .profile--container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         padding: 50px 14% 50px 14%;
         background-color: #3730a3;
       }
@@ -87,9 +97,18 @@
       .profile--info--container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: 50px;      
         
       }
+
+
+      .about--me p{
+        width: 420px;
+       
+    }
+      
       
 }
 
@@ -97,16 +116,55 @@
     .profile--container {
         display: flex;
         flex-direction: column;
-        padding: 50px 14% 50px 14%;
-        background-color: #3730a3;
+     
       }
 
-      .profile--info--container {
-        display: flex;
-        flex-direction: column;
-        margin-top: 50px;      
-        
+      .info--label {
+        font-size: 20px;
+        width: 100px;
       }
       
+      .info--text {
+        font-size: 14px;
+        width: 100px;
+      }
+
+      .about--me{
+        text-align: center;
+      }
+      .about--me p{
+        text-align: center;
+        width: 220px;
+    }
+      
+}
+
+
+@media screen and (max-width: 1250px) {
+  .profile--container {
+      display: flex;
+      flex-direction: column;
+   
+    }
+
+    .profile--info--container{
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .info--label {
+      font-size: 22px;
+      width: 150px;
+    }
+    
+    .info--text {
+      font-size: 12px;
+      width: 100px;
+    }
+
+    .about--me p{
+      width: 220px;
+  }
+    
 }
 

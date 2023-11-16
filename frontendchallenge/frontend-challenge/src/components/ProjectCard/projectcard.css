@@ -64,9 +64,25 @@
 @media screen and (max-width: 890px) {
  
     .project--card--container{
-        
+        align-items: center;
+        text-align: center;
         flex-direction: column;
         
+    }
+
+    .project--tags{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        
+    }
+    
+    .project--links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
     
     

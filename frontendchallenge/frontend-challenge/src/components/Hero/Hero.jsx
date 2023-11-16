@@ -16,19 +16,22 @@ function Hero() {
 
   return (
     <div className="hero--container">
-      <span className="flex justify-end gap-6 items-baseline">
-        <button onClick={handleClick}>
-          {lang === "tr" ? "ENGLISH" : "TÜRKÇE"}
+
+      <span className="header--container">
+        <button className="lang--button" onClick={handleClick}>
+          {lang === "tr" ? "SWITCH TO ENGLISH" : "TÜRKÇE'YE GEÇ"}
         </button>
       </span>
 
       <div className="hero--info--container">
+
         <div className="hero--text--container">
           <p className="hero-name-text">arda</p>
           <p className="hero-big-text mt-5">{texts.basicInfo.heroTextBig}</p>
           <p className="hero-medium-text mt-5">
             {texts.basicInfo.heroTextSmall}
           </p>
+
           <span className="hero--buttons">
             <button className="hero--button">
               <img src="src\assets\LinkedIn.png" alt="" />
