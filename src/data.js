@@ -42,7 +42,7 @@ const data = {
          aspernatur officia fugit culpa.`,
         projectUrl: "https://github.com",
         projectRepo:"https://github.com",
-        projectImg: "src/assets/project.png",
+        projectImg: "assets/project1.png",
       },
       {
         id: "2",
@@ -54,7 +54,7 @@ const data = {
          aspernatur officia fugit culpa.`,
         projectUrl: "https://github.com",
         projectRepo:"https://github.com",
-        projectImg: "src/assets/project.png",
+        projectImg: "assets/project2.png",
       },
       {
         id: "3",
@@ -66,7 +66,7 @@ const data = {
          aspernatur officia fugit culpa.`,
         projectUrl: "https://github.com",
         projectRepo:"https://github.com",
-        projectImg: "src/assets/project.png",
+        projectImg: "assets/project1.png",
       },
     ],
   },
@@ -111,7 +111,7 @@ const data = {
          aspernatur officia fugit culpa.`,
         projectUrl: "https://github.com",
         projectRepo:"https://github.com",
-        projectImg: "src/assets/project1.png",
+        projectImg: "/assets/project1.png",
       },
       {
         id: "2",
@@ -123,7 +123,7 @@ const data = {
          aspernatur officia fugit culpa.`,
         projectUrl: "https://github.com",
         projectRepo:"https://github.com",
-        projectImg: "src/assets/project2.png",
+        projectImg: "/assets/project2.png",
       },
       
     ],

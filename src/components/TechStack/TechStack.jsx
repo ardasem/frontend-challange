@@ -2,6 +2,12 @@ import React from "react";
 import { useContext } from "react";
 import { SiteContext } from "../../context/SiteContext";
 import "./techstack.css";
+import jsLogo from '/assets/js-logo.png';
+import reactLogo from '/assets/react-logo.png';
+import reduxLogo from '/assets/redux-logo.png';
+import nodeLogo from '/assets/node-logo.png';
+import vsLogo from '/assets/vscode-logo.png';
+import figmaLogo from '/assets/figma-logo.png';
 
 function TechStack() {
   const { lang } = useContext(SiteContext);
@@ -15,27 +21,27 @@ function TechStack() {
 
         <div className="techstack--container">
           <div className="tech--card">
-            <img src="src\assets\js-logo.png" alt="" />
+            <img src={jsLogo} alt="" />
             <p className="tech--heading"> JAVASCRIPT </p>
           </div>
           <div className="tech--card">
-            <img src="src\assets\react-logo.png" alt="" />
-            <p className="tech--heading">REACT </p>
+            <img src={reactLogo}className="tech--heading" />
+              <p className="tech--heading" >REACT </p>
           </div>
           <div className="tech--card">
-            <img src="src\assets\redux-logo.png" alt="" />
+            <img src={reduxLogo} alt="" />
             <p className="tech--heading"> REDUX </p>
           </div>
           <div className="tech--card">
-            <img src="src\assets\node-logo.png" alt="" />
+            <img src={nodeLogo}alt="" />
             <p className="tech--heading"> node.js </p>
           </div>
           <div className="tech--card">
-            <img src="src\assets\vscode-logo.png" alt="" />
+            <img src={vsLogo} alt="" />
             <p className="tech--heading"> VS Code </p>
           </div>
           <div className="tech--card">
-            <img src="src\assets\figma-logo.png" alt="" />
+            <img src={figmaLogo} alt="" />
             <p className="tech--heading"> FIGMA </p>
           </div>
         </div>

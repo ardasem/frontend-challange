@@ -28,7 +28,7 @@ function Profile() {
         </div>
 
         <div className="profile--img--container">
-          <img src="src\assets\image2.png" alt="" />
+          <img src="/assets/image2.png" alt="" />
         </div>
 
         <div className="about--me">

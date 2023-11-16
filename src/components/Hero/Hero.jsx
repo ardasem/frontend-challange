@@ -2,6 +2,9 @@ import React from "react";
 import { useContext } from "react";
 import { SiteContext } from "../../context/SiteContext";
 import "./hero.css";
+import Linkedin from '/assets/LinkedIn.png'
+import github from '/assets/github.png'
+import heroImg from '/assets/hero-right.png'
 
 function Hero() {
   const { texts, lang, setLang } = useContext(SiteContext);
@@ -34,17 +37,17 @@ function Hero() {
 
           <span className="hero--buttons">
             <button className="hero--button">
-              <img src="src\assets\LinkedIn.png" alt="" />
+              <img src={Linkedin} alt="" />
               LinkedIn
               </button>
             <button className="hero--button">
-              <img src="src\assets\github.png" alt="" />
+              <img src={github} alt="" />
               Github</button>
           </span>
         </div>
 
         <div className="hero--img--container">
-          <img src="src\assets\hero-right.png" alt="" />
+          <img src={heroImg} alt="" />
         </div>
 
       </div>
