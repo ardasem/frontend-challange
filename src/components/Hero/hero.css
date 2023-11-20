@@ -10,11 +10,12 @@
     #cbf281 70%,
     #cbf281 100%
   );
+  padding: 50px 150px;
 }
 .hero--info--container {
   display: flex;
   flex-direction: row;
-  padding:50px 150px ;
+
 }
 
 .hero--text--container {
@@ -118,6 +119,27 @@
     align-items: center;
   }
 
+  .hero-name-text {
+    color: #cbf281;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-big-text {
+  
+    font-size: 44px;
+    
+  }
+  
+  .hero-medium-text {
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+  }
   
 }
 
